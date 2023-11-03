@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+N:/Development/Dev_Base/proj-9.3.0/src/apps/CMakeLists.txt
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_cct.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_cs2cs.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_geod.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_gie.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_proj.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_projinfo.cmake
+N:/Development/Dev_Base/proj-9.3.0/src/apps/bin_projsync.cmake

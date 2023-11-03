@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EB82719A-F1B2-303D-AFBB-98AFE0600F40}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>generate_proj_db</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.3.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.3.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.3.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.3.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.3.0\msvc\CMakeFiles\644e89807b6e7ee04cf99b5aae558107\proj.db.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating proj.db</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd N:\Development\Dev_Base\proj-9.3.0\data
+if %errorlevel% neq 0 goto :cmEnd
+N:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DALL_SQL_IN=N:/Development/Dev_Base/proj-9.3.0/msvc/data/all.sql.in -DEXE_SQLITE3=N:/Development/Dev_Base/sqlite-3.42.0/vc143/x64/vs2022_Release/Shell.exe -DPROJ_DB=N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db -DPROJ_VERSION=9.3.0 -DPROJ_DB_CACHE_DIR= -P N:/Development/Dev_Base/proj-9.3.0/data/generate_proj_db.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db N:/Development/Dev_Base/proj-9.3.0/msvc/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\data\sql\begin.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\proj_db_table_defs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion_triggers.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations_early.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\metadata.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\unit_of_measure.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\extent.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\scope.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\coordinate_system.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\axis.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ellipsoid.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\prime_meridian.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\projected_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\compound_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\helmert_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation_step.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\alias_name.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\supersession.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\deprecation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\esri.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ignf.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\iau.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives_generated_noaa.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nadcon5_concatenated_operations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg_post_customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\commit.sql;N:\Development\Dev_Base\proj-9.3.0\data\generate_proj_db.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating proj.db</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd N:\Development\Dev_Base\proj-9.3.0\data
+if %errorlevel% neq 0 goto :cmEnd
+N:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DALL_SQL_IN=N:/Development/Dev_Base/proj-9.3.0/msvc/data/all.sql.in -DEXE_SQLITE3=N:/Development/Dev_Base/sqlite-3.42.0/vc143/x64/vs2022_Release/Shell.exe -DPROJ_DB=N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db -DPROJ_VERSION=9.3.0 -DPROJ_DB_CACHE_DIR= -P N:/Development/Dev_Base/proj-9.3.0/data/generate_proj_db.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db N:/Development/Dev_Base/proj-9.3.0/msvc/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\data\sql\begin.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\proj_db_table_defs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion_triggers.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations_early.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\metadata.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\unit_of_measure.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\extent.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\scope.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\coordinate_system.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\axis.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ellipsoid.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\prime_meridian.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\projected_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\compound_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\helmert_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation_step.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\alias_name.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\supersession.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\deprecation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\esri.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ignf.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\iau.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives_generated_noaa.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nadcon5_concatenated_operations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg_post_customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\commit.sql;N:\Development\Dev_Base\proj-9.3.0\data\generate_proj_db.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating proj.db</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd N:\Development\Dev_Base\proj-9.3.0\data
+if %errorlevel% neq 0 goto :cmEnd
+N:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DALL_SQL_IN=N:/Development/Dev_Base/proj-9.3.0/msvc/data/all.sql.in -DEXE_SQLITE3=N:/Development/Dev_Base/sqlite-3.42.0/vc143/x64/vs2022_Release/Shell.exe -DPROJ_DB=N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db -DPROJ_VERSION=9.3.0 -DPROJ_DB_CACHE_DIR= -P N:/Development/Dev_Base/proj-9.3.0/data/generate_proj_db.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db N:/Development/Dev_Base/proj-9.3.0/msvc/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\data\sql\begin.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\proj_db_table_defs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion_triggers.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations_early.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\metadata.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\unit_of_measure.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\extent.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\scope.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\coordinate_system.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\axis.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ellipsoid.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\prime_meridian.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\projected_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\compound_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\helmert_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation_step.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\alias_name.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\supersession.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\deprecation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\esri.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ignf.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\iau.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives_generated_noaa.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nadcon5_concatenated_operations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg_post_customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\commit.sql;N:\Development\Dev_Base\proj-9.3.0\data\generate_proj_db.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating proj.db</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd N:\Development\Dev_Base\proj-9.3.0\data
+if %errorlevel% neq 0 goto :cmEnd
+N:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DALL_SQL_IN=N:/Development/Dev_Base/proj-9.3.0/msvc/data/all.sql.in -DEXE_SQLITE3=N:/Development/Dev_Base/sqlite-3.42.0/vc143/x64/vs2022_Release/Shell.exe -DPROJ_DB=N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db -DPROJ_VERSION=9.3.0 -DPROJ_DB_CACHE_DIR= -P N:/Development/Dev_Base/proj-9.3.0/data/generate_proj_db.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy N:/Development/Dev_Base/proj-9.3.0/msvc/data/proj.db N:/Development/Dev_Base/proj-9.3.0/msvc/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\data\sql\begin.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\proj_db_table_defs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion_triggers.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations_early.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\metadata.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\unit_of_measure.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\extent.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\scope.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\coordinate_system.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\axis.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ellipsoid.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\prime_meridian.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_datum_ensemble_member.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\conversion.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\geodetic_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\projected_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\vertical_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\compound_crs.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\helmert_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\other_transformation_custom.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\concatenated_operation_step.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\alias_name.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\supersession.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\deprecation.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\esri.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\ignf.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\iau.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\grid_alternatives_generated_noaa.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nadcon5_concatenated_operations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\nkg_post_customizations.sql;N:\Development\Dev_Base\proj-9.3.0\data\sql\commit.sql;N:\Development\Dev_Base\proj-9.3.0\data\generate_proj_db.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.3.0\msvc\CMakeFiles\216870295a725c04fcacb7f815411ebb\generate_proj_db.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate_proj_db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate_proj_db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate_proj_db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\proj.db;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate_proj_db</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.3.0\data\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.3.0/data/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.3.0 -BN:/Development/Dev_Base/proj-9.3.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.3.0/msvc/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\data\CH;N:\Development\Dev_Base\proj-9.3.0\data\GL27;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2000;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2008;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2014;N:\Development\Dev_Base\proj-9.3.0\data\nad.lst;N:\Development\Dev_Base\proj-9.3.0\data\nad27;N:\Development\Dev_Base\proj-9.3.0\data\nad83;N:\Development\Dev_Base\proj-9.3.0\data\other.extra;N:\Development\Dev_Base\proj-9.3.0\data\proj.ini;N:\Development\Dev_Base\proj-9.3.0\data\sql_filelist.cmake;N:\Development\Dev_Base\proj-9.3.0\data\tests\BETA2007.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\MD;N:\Development\Dev_Base\proj-9.3.0\data\tests\alaska;N:\Development\Dev_Base\proj-9.3.0\data\tests\conus;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_downsampled.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_uncompressed_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract_tiled_256x256.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_xy_extract.ct2;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_z_extract.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntf_r93.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv1_can.dat;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv2_0_downsampled.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_geocentric.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_projected.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\subset_of_gr3df97a.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_3d_grid_projected.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_big_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_degree.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_extra_ifd_with_other_info.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_little_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_lon_shift_first.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_positive_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_radian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_strip.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_two_level_of_subgrids_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hydroid_height.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_nodata.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_matrix.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_scale.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate_floatingpointpredictor.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_float64.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_in_second_channel.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_invalid_channel_type.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_nodata.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelisarea.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelispoint.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_single_strip_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16_with_scale_offset.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_unsupported_byte.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_crs_implicit.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_centroid.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_side.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_kkj_etrs.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_n60_n2000.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_geoid06_ak_subset_at_antimeridian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_alaska_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_conus_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\world;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.3.0/data/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.3.0 -BN:/Development/Dev_Base/proj-9.3.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.3.0/msvc/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\data\CH;N:\Development\Dev_Base\proj-9.3.0\data\GL27;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2000;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2008;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2014;N:\Development\Dev_Base\proj-9.3.0\data\nad.lst;N:\Development\Dev_Base\proj-9.3.0\data\nad27;N:\Development\Dev_Base\proj-9.3.0\data\nad83;N:\Development\Dev_Base\proj-9.3.0\data\other.extra;N:\Development\Dev_Base\proj-9.3.0\data\proj.ini;N:\Development\Dev_Base\proj-9.3.0\data\sql_filelist.cmake;N:\Development\Dev_Base\proj-9.3.0\data\tests\BETA2007.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\MD;N:\Development\Dev_Base\proj-9.3.0\data\tests\alaska;N:\Development\Dev_Base\proj-9.3.0\data\tests\conus;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_downsampled.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_uncompressed_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract_tiled_256x256.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_xy_extract.ct2;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_z_extract.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntf_r93.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv1_can.dat;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv2_0_downsampled.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_geocentric.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_projected.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\subset_of_gr3df97a.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_3d_grid_projected.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_big_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_degree.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_extra_ifd_with_other_info.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_little_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_lon_shift_first.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_positive_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_radian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_strip.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_two_level_of_subgrids_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hydroid_height.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_nodata.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_matrix.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_scale.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate_floatingpointpredictor.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_float64.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_in_second_channel.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_invalid_channel_type.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_nodata.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelisarea.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelispoint.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_single_strip_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16_with_scale_offset.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_unsupported_byte.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_crs_implicit.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_centroid.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_side.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_kkj_etrs.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_n60_n2000.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_geoid06_ak_subset_at_antimeridian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_alaska_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_conus_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\world;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.3.0/data/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.3.0 -BN:/Development/Dev_Base/proj-9.3.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.3.0/msvc/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\data\CH;N:\Development\Dev_Base\proj-9.3.0\data\GL27;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2000;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2008;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2014;N:\Development\Dev_Base\proj-9.3.0\data\nad.lst;N:\Development\Dev_Base\proj-9.3.0\data\nad27;N:\Development\Dev_Base\proj-9.3.0\data\nad83;N:\Development\Dev_Base\proj-9.3.0\data\other.extra;N:\Development\Dev_Base\proj-9.3.0\data\proj.ini;N:\Development\Dev_Base\proj-9.3.0\data\sql_filelist.cmake;N:\Development\Dev_Base\proj-9.3.0\data\tests\BETA2007.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\MD;N:\Development\Dev_Base\proj-9.3.0\data\tests\alaska;N:\Development\Dev_Base\proj-9.3.0\data\tests\conus;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_downsampled.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_uncompressed_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract_tiled_256x256.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_xy_extract.ct2;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_z_extract.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntf_r93.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv1_can.dat;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv2_0_downsampled.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_geocentric.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_projected.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\subset_of_gr3df97a.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_3d_grid_projected.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_big_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_degree.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_extra_ifd_with_other_info.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_little_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_lon_shift_first.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_positive_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_radian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_strip.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_two_level_of_subgrids_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hydroid_height.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_nodata.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_matrix.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_scale.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate_floatingpointpredictor.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_float64.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_in_second_channel.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_invalid_channel_type.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_nodata.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelisarea.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelispoint.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_single_strip_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16_with_scale_offset.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_unsupported_byte.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_crs_implicit.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_centroid.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_side.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_kkj_etrs.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_n60_n2000.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_geoid06_ak_subset_at_antimeridian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_alaska_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_conus_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\world;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.3.0/data/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.3.0 -BN:/Development/Dev_Base/proj-9.3.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.3.0/msvc/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\data\CH;N:\Development\Dev_Base\proj-9.3.0\data\GL27;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2000;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2008;N:\Development\Dev_Base\proj-9.3.0\data\ITRF2014;N:\Development\Dev_Base\proj-9.3.0\data\nad.lst;N:\Development\Dev_Base\proj-9.3.0\data\nad27;N:\Development\Dev_Base\proj-9.3.0\data\nad83;N:\Development\Dev_Base\proj-9.3.0\data\other.extra;N:\Development\Dev_Base\proj-9.3.0\data\proj.ini;N:\Development\Dev_Base\proj-9.3.0\data\sql_filelist.cmake;N:\Development\Dev_Base\proj-9.3.0\data\tests\BETA2007.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\MD;N:\Development\Dev_Base\proj-9.3.0\data\tests\alaska;N:\Development\Dev_Base\proj-9.3.0\data\tests\conus;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_downsampled.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\egm96_15_uncompressed_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_extract_tiled_256x256.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_xy_extract.ct2;N:\Development\Dev_Base\proj-9.3.0\data\tests\nkgrf03vel_realigned_z_extract.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntf_r93.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv1_can.dat;N:\Development\Dev_Base\proj-9.3.0\data\tests\ntv2_0_downsampled.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_degree_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_geocentric.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_3d_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_horizontal.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_metre_vertical_grid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_polar.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_projected.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_east.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\simple_model_wrap_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\subset_of_gr3df97a.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_3d_grid_projected.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_big_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_degree.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_extra_ifd_with_other_info.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_little_endian.gsb;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_lon_shift_first.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_positive_west.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_radian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_strip.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_tiled_separate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_subgrid_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hgrid_with_two_level_of_subgrids_no_grid_name.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_hydroid_height.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_nodata.gtx;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigendian_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bigtiff.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_matrix.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_bottomup_with_scale.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_deflate_floatingpointpredictor.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_float64.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_in_second_channel.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_int32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_invalid_channel_type.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_nodata.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelisarea.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_pixelispoint.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_single_strip_truncated.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint16_with_scale_offset.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_uint32.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_unsupported_byte.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_overview.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\test_vgrid_with_subgrid.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_crs_implicit.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_centroid.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_fallback_nearest_side.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_kkj_etrs.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\tinshift_simplified_n60_n2000.json;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_geoid06_ak_subset_at_antimeridian.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_alaska_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\tests\us_noaa_nadcon5_nad83_2007_nad83_2011_conus_extract.tif;N:\Development\Dev_Base\proj-9.3.0\data\world;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="N:\Development\Dev_Base\proj-9.3.0\msvc\data\CMakeFiles\generate_proj_db">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.3.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{73467444-7F85-3EFB-A019-F4AE83DFB820}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

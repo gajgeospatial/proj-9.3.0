@@ -1,0 +1,4 @@
+Set envionment for this project as PROJ_DIR
+
+Build keeps library as proj.lib in order to allow easy upgrades. 
+DLL name contains version
